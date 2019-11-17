@@ -1,0 +1,30 @@
+{
+    "name": "elise-browserify-demo",
+    "version": "1.0.0",
+    "description": "Elise Graphics Demo (Browserify)",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "browserify main.js -o bundle.js"
+
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thetheosopher/elise-browserify-demo.git"
+    },
+    "keywords": [
+        "elise-graphics",
+        "graphics",
+        "canvas",
+        "2d"
+    ],
+    "author": "Michael A. McCloskey",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/thetheosopher/elise-browserify-demo/issues"
+    },
+    "homepage": "https://github.com/thetheosopher/elise-browserify-demo#readme",
+    "dependencies": {
+        "elise-graphics": "https://github.com/thetheosopher/elise-graphics.git#3c8876165fc260bbff89f0d0f8e5093506afbf33"
+    }
+}
